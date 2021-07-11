@@ -37,6 +37,7 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+        <!--lombok简化开发-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -48,12 +49,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!--poi 操作EXCEl-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.9</version>
         </dependency>
 
+        <!--poi 操作EXCEl-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -73,6 +76,29 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+        <!--&lt;!&ndash;Druid连接池&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid-spring-boot-starter</artifactId>-->
+            <!--<version>1.1.17</version>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;mysql jdbc&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--&lt;!&ndash;            <version>5.1.49</version>&ndash;&gt;-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;连接数据库必须引入jdbc starter&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-data-jdbc</artifactId>-->
+        <!--</dependency>-->
+
+        <!--引入邮件发送配置的starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
 
     </dependencies>
